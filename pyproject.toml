@@ -1,0 +1,14 @@
+[project]
+name = "copilotagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.11.18",
+    "aiohttp-sse>=2.2.0",
+    "authlib>=1.5.2",
+    "sse-starlette>=2.3.4",
+    "starlette[full]>=0.46.2",
+    "uvicorn[full]>=0.34.2",
+]
